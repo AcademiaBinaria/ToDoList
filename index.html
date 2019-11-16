@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Neutrón</title>
+    <title>To Do List</title>
     <meta name="author" content="Alberto Basalo" />
-    <meta name="description" content="Seed JS project." />
+    <meta name="description" content="A JS web To Do List." />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="layout-flex.css" type="text/css" media="screen" charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="layout-flex.css"
+      type="text/css"
+      media="screen"
+      charset="utf-8"
+    />
+    <link
+      rel="stylesheet"
+      href="to-do-list.css"
+      type="text/css"
+      media="screen"
+      charset="utf-8"
+    />
   </head>
   <body>
     <header>
-      <h1>Neutrón</h1>
+      <h1>To Do List</h1>
     </header>
 
     <main>
       <nav>
-        <a href="">Page one</a>
-        <a href="">Page two</a>
+        <a href="https://github.com/AcademiaBinaria/ToDoList/">Respository</a>
+        <a href="">Testing project</a>
       </nav>
 
       <section>
         <article>
           <header>
             <h2>
-              JS minimal App
+              Add new Task
             </h2>
           </header>
-          <main>Fork this <a href="https://github.com/AtomicBuilders/neutron">Repository</a></main>
-          <footer>Use it as a base for web js projects</footer>
+          <main>
+            <form action="javascript:void(0);">
+              <label for="new-task">Add Item</label>
+              <input id="new-task" type="text" />
+              <button>Add task</button>
+            </form>
+            <section>
+              <header>
+                <h3>Thing to do</h3>
+              </header>
+              <ul id="incomplete-tasks"></ul>
+            </section>
+            <section>
+              <header>
+                <h3>Completed tasks</h3>
+              </header>
+              <ul id="completed-tasks"></ul>
+            </section>
+          </main>
+          <footer>Thanks for using</footer>
         </article>
       </section>
 
@@ -41,7 +72,24 @@
     </main>
 
     <footer>
-      <p>Made by <a href="https://twitter.com/albertobasalo">Alberto Basalo</a></p>
+      <small>
+        <a
+          href="https://github.com/angularbuilders/angular-begins"
+          target="blank"
+          >To Do List</a
+        >
+        is a free product made with ♥ by
+        <a href="https://academia-binaria.com" target="blank"
+          >Academia Binaria</a
+        >, an initiative of
+        <a href="https://www.linkedin.com/in/albertobasalo/" target="blank"
+          >Alberto Basalo</a
+        >
+        for developers and software architects.
+        <i>
+          Learn, code, enjoy, repeat.
+        </i>
+      </small>
     </footer>
     <script src="./main.js" type="module"></script>
     <noscript>Enable javascript for full features</noscript>

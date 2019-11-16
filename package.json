@@ -1,7 +1,7 @@
 {
-  "name": "neutron",
+  "name": "ToDoList",
   "version": "1.0.0",
-  "description": "Minimal JavaScript project setup",
+  "description": "A JS web To Do List used as a sample and a SUT for testing in e2e workshops and courses.",
   "author": {
     "name": "Alberto Basalo",
     "email": "albertobasalo@agorabinaria.com",
@@ -9,12 +9,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomicBuilders/neutron/issues"
+    "url": "https://github.com/AcademiaBinaria/ToDoList/issues"
   },
-  "homepage": "https://github.com/AtomicBuilders/neutron#readme",
+  "homepage": "https://github.com/AcademiaBinaria/ToDoList#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtomicBuilders/neutron.git"
+    "url": "git+https://github.com/AcademiaBinaria/ToDoList.git"
   },
   "keywords": [
     "JS",
